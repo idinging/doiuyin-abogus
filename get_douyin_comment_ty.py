@@ -14,7 +14,7 @@ params = {
     'aid': '6383',
     'aweme_id': '7498720869088513337',
     'cursor': '0',
-    'count': '5',
+    'count': '10',
 
  }
 
@@ -34,13 +34,13 @@ def parse_douyin_comment(comment_json,comment_data = None):
         comment_data = {}
     comment_data['cid'] = comment_json.get('cid')
     comment_data['create_time'] = timestamp_to_str(comment_json.get('create_time'))
-    comment_data['user_id'] = comment_json.get('user').get('unique_id') if comment_json.get('user').get('unique_id') else comment_json.get('user').get('short_id')
+    # comment_data['user_id'] = comment_json.get('user').get('unique_id') if comment_json.get('user').get('unique_id') else comment_json.get('user').get('short_id')
     # comment_data['sec_id'] = comment_json.get('user').get('sec_uid')
-    comment_data['user_name'] = comment_json.get('user').get('nickname')
-    comment_data['digg_count'] = comment_json.get('digg_count')
-    comment_data['is_hot'] = comment_json.get('is_hot')
-    comment_data['reply_comment_total'] = comment_json.get('reply_comment_total')
-    comment_data['is_author_digged'] = comment_json.get('is_author_digged')
+    # comment_data['user_name'] = comment_json.get('user').get('nickname')
+    # comment_data['digg_count'] = comment_json.get('digg_count')
+    # comment_data['is_hot'] = comment_json.get('is_hot')
+    # comment_data['reply_comment_total'] = comment_json.get('reply_comment_total')
+    # comment_data['is_author_digged'] = comment_json.get('is_author_digged')
     comment_data['ip_label'] = comment_json.get('ip_label')
     comment_data['text'] = comment_json['text']
     return comment_data
