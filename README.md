@@ -8,8 +8,11 @@
 ### 3、type 默认detail, 获取二级评论使用reply
 示例代码爬取地址为  https://www.douyin.com/video/7498720869088513337 
 视频页面
+
 ![Clip_2025-06-22_01-44-14](https://github.com/user-attachments/assets/42377e9c-cc70-49a4-8384-6386ae1f684c)
+
 演示抓取
+
 ![Clip_2025-06-22_01-45-08](https://github.com/user-attachments/assets/026290c7-7055-4f8c-9b2b-eca5f29101d0)
 
  更多功能或需要解密源码可以联系 wx:iYear1213
