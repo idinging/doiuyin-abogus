@@ -57,6 +57,6 @@ response = requests.get('https://www.douyin.com/aweme/v1/web/comment/list/', par
 i = 1
 for item in response.json().get('comments', []):
 
-    print(f'{i}:{(parse_douyin_comment(item),'./data/comment_label.txt')}')
+    print(f'{i}:{(parse_douyin_comment(item))}')
     i += 1
 
