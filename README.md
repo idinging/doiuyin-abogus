@@ -1,4 +1,4 @@
-# doiuyin-abogus
+# douyin-abogus
 抖音加密参数获取，源代码添加 iYear1213获取 
 ## 请求接口  https://api.dinging.top/api/abgous
 ### 请求速率限制为 10分钟最多20 次
